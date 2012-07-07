@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.moparscape</groupId>
+    <artifactId>sxf4j</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>sxf4j</name>
+    <description>
+        The Simple XML Facade for Java or (SXF4J) serves as a simple facade or abstraction for various xml frameworks, e.g. org.w3c.dom, dom4j, xpp, xpp3 and xom, allowing the end user to plug in the desired xml framework at deployment time.
+    </description>
+    <url>https://github.com/moparisthebest/sxf4j</url>
+
+    <dependencies>
+
+        <!-- for Xpp3XmlElement -->
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+        <!-- for XppXmlElement -->
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+
+        <!-- for Dom4jXmlElement-->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <!-- for XomXmlElement-->
+        <dependency>
+            <groupId>xom</groupId>
+            <artifactId>xom</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+    </dependencies>
+
+    <developers>
+        <developer>
+            <name>Travis Burtrum</name>
+            <url>http://www.moparisthebest.com/</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>
+            <url>http://www.gnu.org/licenses/lgpl.html</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:moparisthebest/sxf4j.git</developerConnection>
+        <connection>scm:git:git@github.com:moparisthebest/sxf4j.git</connection>
+        <url>git@github.com:moparisthebest/sxf4j.git</url>
+    </scm>
+</project>
