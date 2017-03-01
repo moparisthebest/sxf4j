@@ -39,6 +39,12 @@
         <connection>scm:git:git@github.com:moparisthebest/sxf4j.git</connection>
         <url>git@github.com:moparisthebest/sxf4j.git</url>
     </scm>
+    <properties>
+        <maven.test.skip>true</maven.test.skip>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <pushChanges>false</pushChanges>
+        <localCheckout>true</localCheckout>
+    </properties>
     <dependencies>
 
         <!-- for Xpp3XmlElement -->
