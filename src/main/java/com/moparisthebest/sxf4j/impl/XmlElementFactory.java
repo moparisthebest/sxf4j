@@ -1,4 +1,4 @@
-package org.moparscape.xml.impl;
+package com.moparisthebest.sxf4j.impl;
 
 import java.io.File;
 import java.io.InputStream;

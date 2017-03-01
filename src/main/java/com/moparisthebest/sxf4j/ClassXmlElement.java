@@ -1,8 +1,8 @@
-package org.moparscape.xml;
+package com.moparisthebest.sxf4j;
 
-import org.moparscape.xml.impl.AbstractXmlElement;
-import org.moparscape.xml.impl.XmlElement;
-import org.moparscape.xml.impl.XmlElementFactory;
+import com.moparisthebest.sxf4j.impl.AbstractXmlElement;
+import com.moparisthebest.sxf4j.impl.XmlElement;
+import com.moparisthebest.sxf4j.impl.XmlElementFactory;
 
 import java.lang.annotation.*;
 import java.lang.reflect.AccessibleObject;

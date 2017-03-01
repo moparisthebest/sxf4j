@@ -1,4 +1,4 @@
-package org.moparscape.xml.impl;
+package com.moparisthebest.sxf4j.impl;
 
 import org.dom4j.*;
 import org.dom4j.Document;

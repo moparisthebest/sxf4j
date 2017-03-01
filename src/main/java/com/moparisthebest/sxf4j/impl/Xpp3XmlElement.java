@@ -1,4 +1,4 @@
-package org.moparscape.xml.impl;
+package com.moparisthebest.sxf4j.impl;
 
 import org.codehaus.plexus.util.xml.XmlStreamReader;
 import org.codehaus.plexus.util.xml.Xpp3Dom;

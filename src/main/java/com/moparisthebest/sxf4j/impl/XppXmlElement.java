@@ -1,4 +1,4 @@
-package org.moparscape.xml.impl;
+package com.moparisthebest.sxf4j.impl;
 
 import com.thoughtworks.xstream.io.copy.HierarchicalStreamCopier;
 import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;

@@ -1,4 +1,4 @@
-package org.moparscape.xml.impl;
+package com.moparisthebest.sxf4j.impl;
 
 import java.io.*;
 import java.lang.reflect.Constructor;
@@ -17,11 +17,11 @@ public abstract class AbstractXmlElement implements XmlElement, XmlElementFactor
 	public static XmlElementFactory getFactory() {
 		XmlElementFactory ret = null;
 
-		//ret = new org.moparscape.xml.impl.W3CXmlElement();
-		//ret = new org.moparscape.xml.impl.XppXmlElement();
-		//ret = new org.moparscape.xml.impl.Xpp3XmlElement();
-		//ret = new org.moparscape.xml.impl.Dom4jXmlElement();
-		//ret = new org.moparscape.xml.impl.XomXmlElement();
+		//ret = new W3CXmlElement();
+		//ret = new XppXmlElement();
+		//ret = new Xpp3XmlElement();
+		//ret = new Dom4jXmlElement();
+		//ret = new XomXmlElement();
 		final String xmlDocType = System.getProperty(implProperty);
 		//System.out.println("xmlDocType: "+xmlDocType);
 		String implPkgClass = AbstractXmlElement.class.getPackage().getName() + "." + xmlDocType;

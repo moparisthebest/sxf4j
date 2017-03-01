@@ -1,9 +1,9 @@
-package org.moparscape;
+package com.moparisthebest;
 
-import org.moparscape.xml.ClassXmlElement;
+import com.moparisthebest.sxf4j.ClassXmlElement;
 
-import org.moparscape.xml.ClassXmlElement.Root;
-import org.moparscape.xml.impl.*;
+import com.moparisthebest.sxf4j.ClassXmlElement.Root;
+import com.moparisthebest.sxf4j.impl.*;
 
 import java.util.*;
 
