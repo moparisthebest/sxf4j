@@ -27,7 +27,7 @@ public class W3CXmlElement extends AbstractXmlElement {
 			try{
 				db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 			}catch(Exception e){
-				e.printStackTrace();
+				throw new RuntimeException(e);
 			}
 			if(db == null){
 				internal = null;

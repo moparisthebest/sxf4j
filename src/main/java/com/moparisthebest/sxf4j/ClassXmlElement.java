@@ -18,7 +18,7 @@ public class ClassXmlElement {
 			, "WARNING: INFINITE RECURSION DETECTED"
 	};
 
-	public static boolean debug = false;
+	public static final boolean debug = false;
 
 	private final String uuid;
 
@@ -293,7 +293,7 @@ public class ClassXmlElement {
 				else
 					ret = m.invoke(container);
 			} catch (Exception e) {
-				e.printStackTrace();
+				throw new RuntimeException(e);
 			}
 			return ret;
 		}

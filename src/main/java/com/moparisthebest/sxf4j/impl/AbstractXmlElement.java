@@ -64,9 +64,9 @@ public abstract class AbstractXmlElement implements XmlElement, XmlElementFactor
 				constructor.setAccessible(true);
 			return (E) constructor.newInstance();
 		} catch (Exception e) {
-			e.printStackTrace();
+			// ignore
 		} catch (Error e) {
-			e.printStackTrace();
+			// ignore
 		}
 		return null;
 	}
@@ -107,9 +107,8 @@ public abstract class AbstractXmlElement implements XmlElement, XmlElementFactor
 			writeToStream(bos);
 			return new String(bos.toByteArray(), "UTF-8");
 		} catch (Exception e) {
-			e.printStackTrace();
+			throw new RuntimeException(e);
 		}
-		return new String(bos.toByteArray());
 	}
 
 	@Override
